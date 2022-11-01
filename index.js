@@ -1,4 +1,4 @@
-import Dog from './Dog'
+import Dog from './Dog.js'
 import dogs from './data.js'
 
 const likeBtn = document.getElementById('like-btn')
