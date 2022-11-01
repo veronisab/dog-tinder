@@ -16,7 +16,7 @@ body{
     padding: 10px 5px;
     width: 540px;
     background-color: #fff;
-    min-height: calc(100vh - 25px);
+    min-height: 100%;
 }
 
 .end{
