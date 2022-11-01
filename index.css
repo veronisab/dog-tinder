@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    background-color: #111;
+}
+
+.tindog {
+    border-radius: 20px;
+    padding: 10px 5px;
+    width: 540px;
+    background-color: #fff;
+    min-height: calc(100vh - 25px);
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header img {
+    height: 35px;
+}
+
+.buttonsdiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttonsdiv img {
+  height: 34px;  
+}
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.dog-img {
+    width: 535px;
+    max-width: 535px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.about {
+    margin-top: -100px;
+    z-index: 2;
+    color: #fff;
+    padding: 12px;
+    font-weight: 400;
+}
+button {
+    border-radius: 50%;
+    border: 0;
+    height: 90px;
+    width: 90px;
+    background-color: #fff;
+    box-shadow: 0 0 20px #E9E9EA;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#like-btn:hover {
+    background-color: #DBFFF4;
+    box-shadow:0 10px 20px #CCF1E6;
+}
+
+#nope-btn:hover {
+    background-color: #FFE7EF;
+    box-shadow:0 10px 20px #EDD9DF;
+}
+
+.badge-box {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    z-index: 5;
+    transform: rotate(-30deg);
+}
+.badge-box img {
+    width: 233px;
+}
