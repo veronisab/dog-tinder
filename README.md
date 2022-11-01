@@ -1,4 +1,4 @@
-# coef5424183288334d3d44b48
+# TINDER FOR DOGS - Solo project - Next-level Javascript Challenge
 
 ## About Scrimba
 
