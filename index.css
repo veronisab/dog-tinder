@@ -94,3 +94,13 @@ button {
 .badge-box img {
     width: 233px;
 }
+
+@media screen and (max-width: 600px){
+    .tindog {
+        width: 100%
+    }
+    
+    .dog-img {
+    width: 100%;
+}
+}
